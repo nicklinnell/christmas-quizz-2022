@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "deploy": "deployctl deploy --project=kyan-prizes-2022 main.ts"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}
