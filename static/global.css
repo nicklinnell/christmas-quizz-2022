@@ -1,5 +1,7 @@
 .wrapper {
   background-image: url('/mobile_bg.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-color: rgb(0 12 35);
+  background-position-y: center;
 }
