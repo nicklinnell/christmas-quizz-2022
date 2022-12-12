@@ -49,8 +49,8 @@ export const handler: Handlers<Data> = {
     if (!isEmail)
       return ctx.render({ email: "", error: "Invalid email address!" });
     // email is not kyan
-    if (email.split("@")[1].toLowerCase() !== "kyan.com")
-      return ctx.render({ email: "", error: "Not a kyan email address!" });
+    if (email.split("@")[1].toLowerCase() !== "bcbgroup.io")
+      return ctx.render({ email: "", error: "Not a BCB email address!" });
 
     const prizes = await store.get("prizes");
     const claimedPrizes = prizes ? JSON.parse(prizes) : {};

@@ -6,7 +6,7 @@ interface Result {
 }
 
 export function prizeUrl(uuid: string) {
-  return `https://kyan-prizes-2022.deno.dev/prizes/${uuid}`;
+  return `https://bcb-prizes-2022.deno.dev/prizes/${uuid}`;
 }
 
 export const handler: Handlers = {

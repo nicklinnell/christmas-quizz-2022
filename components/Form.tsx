@@ -17,13 +17,13 @@ export function Form(props: FormProps) {
             class="block text-gray-700 text-sm font-bold mb-2"
             for="username"
           >
-            Enter your Kyan email address
+            Enter your BCB email address
           </label>
           <input
             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             id="email"
             type="text"
-            placeholder="...@kyan.com"
+            placeholder="...@bcbgroup.io"
             name="email"
             value={email}
             required
@@ -44,7 +44,7 @@ export function Form(props: FormProps) {
         )}
       </form>
       <p class="text-center text-gray-500 text-xs">
-        &copy;2022 Kyan Christmas.
+        &copy;2022 Kyan.
       </p>
     </div>
   );
