@@ -13,4 +13,6 @@ export const PRIZES = {
   "f1211f0f-95fa-4295-a75c-fd4d0384b036": "prize8",
   "b6a39705-3d62-4fe4-bc2d-668019a70996": "prize9",
   "1e1abcc2-4548-4fa4-a8df-9e7943057682": "prize10",
+  "69b5a47d-4598-4afa-a784-3ca5e9f4f649": "prize11",
+  "8b88c523-97cd-4854-80cb-fe1f3dc85af9": "prize12",
 } as Prize;
